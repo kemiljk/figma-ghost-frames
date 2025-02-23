@@ -2,7 +2,7 @@
   "name": "Ghost Frames",
   "id": "1321301510771170833",
   "api": "1.0.0",
-  "main": "code.js",
+  "main": "dist/code.js",
   "capabilities": [],
   "enableProposedApi": false,
   "editorType": ["figma"],

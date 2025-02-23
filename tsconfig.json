@@ -1,9 +1,18 @@
 {
   "compilerOptions": {
-    "target": "es6",
-    "lib": ["es6"],
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "lib": ["ESNext", "DOM"],
     "strict": true,
     "typeRoots": ["./node_modules/@types", "./node_modules/@figma"],
-    "moduleResolution": "node"
-  }
+    "types": ["@figma/plugin-typings"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "isolatedModules": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true
+  },
+  "include": ["code.ts"],
+  "exclude": ["node_modules", "dist"]
 }
